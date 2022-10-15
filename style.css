@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+} 
+
+body {
+
+    background-image: linear-gradient(to right, rgb(198, 167, 55) , rgb(224, 104, 12));
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+select {
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.mercedes, .cadillac, .bmw {
+    width: 94%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 2px 3px 8px 2px;
+}
+
+#mercedes, #cadillac, #bmw {
+    object-fit: cover;
+    display: none;    
+
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+select, option {
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 17px;
+    border: 2px solid black;
+}
+
+#result {
+    margin-bottom: 20px;
+
+}
+.car {
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 2px;
+    width: 1100px;
+    height: 600px;
+}
+.carIMG {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+/* background-size: cover;
+background-repeat: no-repeat; */
